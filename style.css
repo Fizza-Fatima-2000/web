@@ -1,0 +1,89 @@
+.bg{
+    background-color: black;
+}
+#Y{
+    font-weight: bold;
+    color: azure;
+}
+.maintxt{
+    background-image: url(image/img3.jpg);
+    background-size:100% 100%;
+background-attachment: fixed;
+width:100%;
+height: 350px;
+}
+#g{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline red;
+    font-weight: bold;
+}
+#g1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+   padding-top: 5px;
+   line-height: 20px;
+    text-align: center;
+   
+    color: rgb(0, 0, 0);
+ 
+}
+.container1{
+    background-image: url(image/img5.jpg);
+    background-size:100% 100%;
+background-attachment: fixed;
+width:100%;
+height: 350px;
+}
+.ggg{
+    text-align: center;
+}
+.container2{
+    justify-items: center; 
+}
+
+
+
+  
+ #tt{
+     font-weight: bold;
+     text-decoration: underline red;
+     color: black;
+     font-size: 40px;
+ }
+
+
+ .box{
+     
+    border: 2px solid;
+    width : 300px;
+  position: relative;
+  overflow: hidden;
+  
+  }
+  .box img{
+   width: 100%;
+   height: auto; 
+  }
+  .gg{
+    color: azure;
+    background-color: rgb(0,0,0,0.8);
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+   transition: all 0.5s;
+  }
+  .box:hover .gg{
+    left: 0;
+  }
+  .main{
+    flex-direction: row;
+    display: flex;
+  }
+  
